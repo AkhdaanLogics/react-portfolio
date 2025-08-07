@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import mejpg from "./assets/me-in-beach.jpg";
 
 function About() {
   const textRef = useRef(null);
@@ -54,7 +55,7 @@ function About() {
         className="flex flex-col items-center justify-end my-auto mx-4 md:mx-0"
       >
         <img
-          src="./src/assets/me-in-beach.jpg"
+          src={mejpg}
           alt="Akhdaan"
           className="w-120 h-75 rounded-full object-cover mx-auto md:mx-0 mb-4 md:mb-0 shadow-[5px_10px_45px_-15px_#d76f78]"
         />
