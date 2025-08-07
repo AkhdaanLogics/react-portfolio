@@ -37,7 +37,7 @@ function Home() {
 
       case "projects":
         response =
-          "My projects:\n- Notetify\n- Discord Bot\n- Type 'contact' to know more.";
+          "You can click on the 'Projects' section to view my work.";
         break;
 
       case "contact":

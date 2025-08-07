@@ -14,6 +14,11 @@ import Marquee from "react-fast-marquee";
 import ProjectsCard from "./ProjectsCard";
 import { gsap } from "gsap";
 import notetifyImg from "./assets/notetify.png";
+import baliTrips from "./assets/bali-trips.png";
+import musicApp from "./assets/music-app.png";
+import zephyrImg from "./assets/zephyr.png";
+import bioskopImg from "./assets/bioskop.png";
+import sulapTugas from "./assets/sulap-tugas.png";
 
 const projectsData = [
   {
@@ -21,44 +26,54 @@ const projectsData = [
     description:
       "Notetify is a fun and creative web application that transforms your personal notes or lists into a receipt-style format, giving them a unique and aesthetic look.",
     image: notetifyImg,
-    githubLink: "",
+    githubLink: "https://github.com/AkhdaanLogics/Notetify",
     websiteLink: "https://mynotetify.vercel.app/",
   },
-  
+
   {
-    title: "Notetify",
+    title: "Bali Trips",
     description:
-      "Notetify is a fun and creative web application that transforms your personal notes or lists into a receipt-style format, giving them a unique and aesthetic look.",
-    image: notetifyImg,
-    githubLink: "",
-    websiteLink: "https://mynotetify.vercel.app/",
+      "Bali Trips is a travel website that provides information about popular tourist destinations in Bali, Indonesia. It features a user-friendly interface with detailed descriptions, images, and maps of each location.",
+    image: baliTrips,
+    githubLink: "https://github.com/AkhdaanLogics/bali_trips",
+    websiteLink: "https://bali-trips.vercel.app/",
   },
-  
+
   {
-    title: "Notetify",
+    title: "Static Music App",
     description:
-      "Notetify is a fun and creative web application that transforms your personal notes or lists into a receipt-style format, giving them a unique and aesthetic look.",
-    image: notetifyImg,
-    githubLink: "",
-    websiteLink: "https://mynotetify.vercel.app/",
+      "Static Music App is a simple web application that showcases a collection of music tracks. It features a clean and modern design.",
+    image: musicApp,
+    githubLink: "https://github.com/AkhdaanLogics/MusicApp",
+    websiteLink: "https://akhdaanlogics.github.io/MusicApp",
   },
-  
+
   {
-    title: "Notetify",
+    title: "Zephyr Discord Bot",
     description:
-      "Notetify is a fun and creative web application that transforms your personal notes or lists into a receipt-style format, giving them a unique and aesthetic look.",
-    image: notetifyImg,
-    githubLink: "",
-    websiteLink: "https://mynotetify.vercel.app/",
+      "Zephyr is a Discord bot that provides various utilities and features for Discord servers. It is designed to enhance the user experience and streamline server management.",
+    image: zephyrImg,
+    githubLink: "https://github.com/AkhdaanLogics/zephyr",
+    websiteLink:
+      "https://discord.com/oauth2/authorize?client_id=1305833821002010714",
   },
-  
+
   {
-    title: "Notetify",
+    title: "Tiket Bioskop",
     description:
-      "Notetify is a fun and creative web application that transforms your personal notes or lists into a receipt-style format, giving them a unique and aesthetic look.",
-    image: notetifyImg,
-    githubLink: "",
-    websiteLink: "https://mynotetify.vercel.app/",
+      "Tiket Bioskop is a web application that allows users to browse and book movie tickets online. It features a user-friendly interface with real-time availability and booking options.",
+    image: bioskopImg,
+    githubLink: "https://github.com/AkhdaanLogics/bioskop",
+    websiteLink: "https://akhdaanlogics.github.io/bioskop/dashboard.html",
+  },
+
+  {
+    title: "Sulap Tugas",
+    description:
+      "Sulap Tugas is a web application designed to help students manage their assignments and tasks effectively. It provides a simple and intuitive interface for tracking deadlines and organizing tasks.",
+    image: sulapTugas,
+    githubLink: "https://github.com/AkhdaanLogics/SulapTugas",
+    websiteLink: "https://akhdaanlogics.github.io/SulapTugas",
   },
 ];
 
