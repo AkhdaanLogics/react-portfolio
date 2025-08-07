@@ -7,7 +7,7 @@ import {
 
 function ProjectsCard({ title, description, image, githubLink, websiteLink }) {
   return (
-    <Card className="max-w-[16rem] max-h-[32rem] overflow-hidden hover:transform hover:scale-105 transition-transform duration-300">
+    <Card className="max-w-[16rem] max-h-[32rem] overflow-hidden hover:transform hover:scale-105 duration-300 hover:shadow-[0px_0px_45px_-15px_#d76f78]">
       <CardHeader
         floated={false}
         shadow={false}
@@ -33,9 +33,7 @@ function ProjectsCard({ title, description, image, githubLink, websiteLink }) {
         </Typography>
         <div className="flex items-center mt-4 space-x-4">
           <a href={githubLink} target="_blank" rel="noopener noreferrer">
-            <i
-              className="bi bi-github text-lg hover:text-[#d76f78] duration-300"
-            ></i>
+            <i className="bi bi-github text-lg hover:text-[#d76f78] duration-300"></i>
           </a>
           <a href={websiteLink} target="_blank" rel="noopener noreferrer">
             <i className="bi bi-globe2 text-lg hover:text-[#d76f78] duration-300"></i>

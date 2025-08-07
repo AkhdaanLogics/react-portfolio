@@ -23,7 +23,7 @@ function Contact() {
         </p>
         <div className="flex items-center gap-4 mt-4 md:mt-0">
           <a
-            href="https://github.com/username"
+            href="https://github.com/AkhdaanLogics"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"
@@ -39,7 +39,7 @@ function Contact() {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="https://github.com/username"
+            href="https://instagram.com/m.akhdaan__"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"
@@ -47,7 +47,7 @@ function Contact() {
             <FaInstagram size={20} />
           </a>
           <a
-            href="https://github.com/username"
+            href="https://discord.com/users/491893610309222400"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"

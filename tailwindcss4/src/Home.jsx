@@ -74,7 +74,9 @@ function Home() {
       id="home"
       className="min-h-screen grid grid-cols-1 md:grid-cols-2 gap-8 p-4 mt-2"
     >
-      <div className="rounded-lg overflow-hidden shadow-2xl w-full md:w-[650px] h-[400px] md:h-[500px] my-auto mx-auto">
+      <div
+        className="rounded-lg overflow-hidden shadow-[0px_0px_45px_-15px_#d76f78] w-full md:w-[650px] h-[400px] md:h-[500px] my-auto mx-auto"
+      >
         <Terminal
           name="Akhdaan's Prompt"
           colorMode={ColorMode.Light}
@@ -95,34 +97,38 @@ function Home() {
           Web Developer
         </p>
         <p className="text-gray-600 mt-4 text-sm md:text-md font-medium leading-relaxed">
-          Muhammad Akhdaan, a passionate web developer with a keen interest in
-          creating dynamic and responsive web applications. With a strong
-          foundation in HTML, CSS, and JavaScript, I strive to build
-          user-friendly interfaces that enhance the overall user experience.
-          Contact me to collaborate on exciting projects or to learn more about
-          my work.
+          <span className="text-[#d76f78] font-bold">Muhammad Akhdaan</span>, a
+          passionate web developer with a keen interest in creating dynamic and
+          responsive web applications. With a strong foundation in HTML, CSS,
+          and JavaScript, I strive to build user-friendly interfaces that
+          enhance the overall user experience. Contact me to collaborate on
+          exciting projects or to learn more about my work.
         </p>
         <div className="flex space-x-4 mt-4 text-gray-600 text-lg font-medium">
           <a
-            href=""
+            href="https://github.com/AkhdaanLogics"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"
+            target="_blank"
           >
             <i className="bi bi-github"></i>
           </a>
           <a
             href=""
+            target="_blank"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"
           >
             <i className="bi bi-linkedin"></i>
           </a>
           <a
-            href=""
+            href="https://instagram.com/m.akhdaan__"
+            target="_blank"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"
           >
             <i className="bi bi-instagram"></i>
           </a>
           <a
-            href=""
+            href="https://discord.com/users/491893610309222400"
+            target="_blank"
             className="hover:text-[#d76f78] duration-300 transform hover:scale-110"
           >
             <i className="bi bi-discord"></i>
